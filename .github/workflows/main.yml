@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       - name: 프로젝트 빌드하기
-        run: npm run build
+        run: npm start
         
       - name: 빌드 파일 생성 체크
         run: ls -la
